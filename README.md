@@ -1,6 +1,6 @@
-# GTS Soluções
+# Instalações Front-end
 
-Este pacote contém todo o código de front-end do sistema de agendamento de instalação e manutenção de rastreadores.
+Este pacote contém todo o código de front-end do sistema de agendamento de instalação e manutenção de equipamentos.
 
 > ## Por todos os deuses, evite a gambiarra aqui e no back-end.
 
