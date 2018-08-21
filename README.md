@@ -25,7 +25,7 @@ npm run build
 # caso a pasta 'static' tenha sido alterada, copie ela também, já que seus arquivos são estáticos, ou seja, o desenvolvedor coloca os arquinos lá.
 ```
 
-Para expica&ccedil;&otilde;es detalhadas de como tudo funciona, consulte a [documenta&ccedil;&atilde;o do vue-loader](http://vuejs.github.io/vue-loader).
+Para explica&ccedil;&otilde;es detalhadas de como tudo funciona, consulte a [documenta&ccedil;&atilde;o do vue-loader](http://vuejs.github.io/vue-loader).
 
 ## Links &uacute;teis
 
