@@ -1,0 +1,56 @@
+// Import Font-Awesome
+//$fa-font-path: "~font-awesome/fonts";
+$mdi-font-path: "~mdi/fonts";
+//@import "~font-awesome/scss/font-awesome";
+@import "~mdi/scss/materialdesignicons.scss";
+
+/*
+	Quebra de linha nas tabelas quando o texto é muito grande, como e-mail, exceto os ícones.
+*/
+.b-table table tr td :not(.icon) {
+	word-break: normal;
+}
+.breakline {
+	word-break: break-all !important;
+}
+/*
+	Corrige a posição da modal.
+*/
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 130 !important;
+}
+
+/*
+	Corrige a posição dos notices.
+*/
+.notices {
+	z-index: 140 !important;
+}
+
+/*
+	Botão redondo
+*/
+.button.button-round-medium {
+	--height: 1.25rem;
+	border-radius: calc(1.25 * var(--height));
+}
+.button.button-round-small {
+	--height: 0.2rem;
+	border-radius: calc(6 * var(--height));
+}
+
+/*
+	Largura da caixa de mensagem das observações
+*/
+.observacao-message {
+	width: auto !important;
+
+	.control {
+		max-width: 90%;
+	}
+}

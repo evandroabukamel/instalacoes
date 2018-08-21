@@ -1,0 +1,47 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all.sass";
+
+// 2. Set your own initial variables from Bulma
+// Set colors
+$orange: hsl(14, 100%, 53%);
+$yellow: hsl(48, 100%, 67%);
+$green: hsl(141, 71%, 48%);
+$turquoise: hsl(179, 100%, 39%);
+$blue: hsl(199, 95%, 40%);
+$purple: hsl(271, 100%, 71%);
+$red: hsl(360, 100%, 61%);
+
+// 3. Set the derived variables
+// Use the new colors as the default colors
+$link: $blue;
+$link-invert: findColorInvert($link);
+$link-focus-border: lighten($link, 10%);
+$primary: $blue;
+$primary-invert: findColorInvert($primary);
+$info: $turquoise;
+$info-invert: findColorInvert($info);
+$success: $green;
+$success-invert: findColorInvert($success);
+$warning: $yellow;
+$warning-invert: findColorInvert($warning);
+$danger: $red;
+$danger-invert: findColorInvert($danger);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: ("white": ($white, $black))
+$colors: map-merge($colors, ("black": ($black, $white)))
+$colors: map-merge($colors, ("light": ($light, $light-invert)))
+$colors: map-merge($colors, ("dark": ($dark, $dark-invert)))
+$colors: map-merge($colors, ("link": ($link, $link-invert)))
+$colors: map-merge($colors, ("primary": ($primary, $primary-invert)))
+$colors: map-merge($colors, ("info": ($info, $info-invert)))
+$colors: map-merge($colors, ("success": ($success, $success-invert)))
+$colors: map-merge($colors, ("warning": ($warning, $warning-invert)))
+$colors: map-merge($colors, ("danger": ($danger, $danger-invert)))
+$colors: map-merge($colors, ("orange": ($orange, findColorInvert($orange))))
+$colors: map-merge($colors, ("yellow": ($yellow, findColorInvert($yellow))))
+$colors: map-merge($colors, ("green": ($green, findColorInvert($green))))
+$colors: map-merge($colors, ("turquoise": ($turquoise, findColorInvert($turquoise))))
+$colors: map-merge($colors, ("blue": ($blue, findColorInvert($blue))))
+$colors: map-merge($colors, ("purple": ($purple, findColorInvert($purple))))
+$colors: map-merge($colors, ("red": ($red, findColorInvert($red))))
