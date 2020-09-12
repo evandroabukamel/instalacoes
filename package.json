@@ -23,7 +23,7 @@
     "animate.css": "^3.5.2",
     "axios": "^0.20.0",
     "babel-polyfill": "^6.26.0",
-    "buefy": "^0.6.3",
+    "buefy": "^0.7.2",
     "bulma": "^0.6.2",
     "camelcase-keys": "^4.2.0",
     "flatpickr": "^4.2.4",
