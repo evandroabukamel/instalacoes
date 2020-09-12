@@ -7,7 +7,7 @@ import VueAxios from 'vue-axios';
 import Vuex from 'vuex';
 import Buefy from 'buefy';
 import { Toast } from 'buefy';
-import 'buefy/lib/buefy.css';
+import 'buefy/dist/buefy.css';
 import * as types from './store/mutation-types.js';
 import _ from 'lodash';
 import NProgress from 'vue-nprogress';
